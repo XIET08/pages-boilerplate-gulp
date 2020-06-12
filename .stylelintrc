@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "at-rule-no-unknown": [true, {"ignoreAtRules" :[
+      "mixin", "extend", "content"
+    ]}],
+    "font-family-no-missing-generic-family-keyword": null
+  }
+}
